@@ -1,20 +1,19 @@
 async function fetch_all_pages(url){
-    let vaiindo = true
+    let go = true
     let result = []
     let page = 1
-    while(vaiindo){
+    while(go){
         const response = await fetch(`${url}?page=${page}`)
         const tmpitems = await response.json()
         if(tmpitems.length > 0){
             result = result.concat(tmpitems)
             page++
         } else {
-            vaiindo = false
+            go = false
         }
     }
     return result
 }
-
 export const api = {
     async search_users(searchstring){
         const url = `https://api.github.com/search/users?q=${searchstring}`
