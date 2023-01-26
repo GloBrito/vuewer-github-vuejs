@@ -1,4 +1,4 @@
-# github_vuewer :open_file_folder: :fontawesome-solid-magnifying-glass:
+# github_vuewer :open_file_folder:
 
 ## Project setup
 ```
