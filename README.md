@@ -1,6 +1,4 @@
-# Em construção.. 👷‍♀️🧰 🛠️
-
-## github_vuewer 
+# github_vuewer :open_file_folder: :fontawesome-solid-magnifying-glass:
 
 ## Project setup
 ```
